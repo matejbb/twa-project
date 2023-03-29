@@ -25,9 +25,40 @@
   background-color: #9A8873;
 }
 
+.postheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .posts {
   margin-left: 20vw;
-  width: 80vw;
-  height: 100vh;
   background-color: #211F1C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+
+.post {
+  width: 50%;
+  background-color: #766756;
+  color: #F9F8F8;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.headerimagewrapper {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.headerimage {
+  height: 100%;
+}
+
+.postimage {
+
 }
