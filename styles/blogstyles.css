@@ -1,0 +1,26 @@
+.blog{
+    background-color: #766756;
+    color: #F9F8F8;
+    width: 50vw;
+    padding: 1vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.blog .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog h2{
+
+}
+
+.blog p{
+
+}
+.blog .icon{
+    height: 25px;
+    color: #F9F8F8;
+}
