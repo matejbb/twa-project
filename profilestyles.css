@@ -1,0 +1,34 @@
+.profilos{
+  display: flex;
+}
+.ryba{
+  margin: 10px;
+  margin-right: 50px;
+}
+img {
+    border-radius: 50%;
+  }
+
+.Meno{
+  text-align: right;
+}
+
+.button {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: min-content;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+.bruh{
+  display: flex;
+}
