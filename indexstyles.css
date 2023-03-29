@@ -1,0 +1,16 @@
+.header {
+  background-color: #2E3833; 
+  width: 13vw;
+  height: 100vh;
+  padding: 40px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.header a {
+  margin: 10px;
+  color: #F9F8F8;
+  text-decoration: none;
+  font-size: 1.5em;
+}
