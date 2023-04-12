@@ -1,11 +1,22 @@
+body{
+    color: #F9F8F8;
+    padding: 4vh;
+    background-color: #211F1C;
+    display: flex;
+
+}
 .blog{
+    background-color: #766756;
     width: 50vw;
     padding: 1vw;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .blog .heading{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .blog h2{
@@ -14,4 +25,15 @@
 
 .blog p{
 
+}
+.blog .icon{
+    height: 25px;
+    color: #F9F8F8;
+}
+.recommended_profiles_options{
+    display: flex;
+    justify-content: space-between;
+}
+.recommended_profiles_options img{
+    width: 25%;
 }
