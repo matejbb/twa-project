@@ -7,6 +7,8 @@
   flex-direction: column;
 }
 
+html {overflow: hidden;}
+
 .header a {
   margin: 10px;
   border-radius: 10px ;
@@ -39,9 +41,12 @@
   flex-direction: column;
   align-items: center;
   width: 80vw;
+  height: 100vh;
+  overflow: auto;
 }
 
 .post {
+  margin: 20px;
   width: 50%;
   background-color: #766756;
   color: #F9F8F8;
