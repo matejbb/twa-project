@@ -27,6 +27,11 @@ html {overflow: hidden;}
   background-color: #9A8873;
 }
 
+.name{
+  font-size: 2em;
+  margin-right: 5%;
+  line-height: 2em;
+}
 .postheader {
   display: flex;
   align-items: center;
@@ -50,7 +55,7 @@ html {overflow: hidden;}
   width: 50%;
   background-color: #766756;
   color: #F9F8F8;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 20px;
 }
 

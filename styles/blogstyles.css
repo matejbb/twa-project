@@ -1,0 +1,97 @@
+.header {
+    background-color: #2E3833; 
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+html {overflow: hidden;}
+
+.header a {
+margin: 10px;
+border-radius: 10px ;
+color: #F9F8F8;
+text-decoration: none;
+padding: 10px;
+font-size: 1.5em;
+}
+
+.header a:hover {
+background-color: #252d29;
+transition: 0.2s ease-in-out;
+}
+
+.active {
+background-color: #9A8873;
+}
+
+body{
+    color: #F9F8F8;
+    background-color: #211F1C; 
+}
+
+.wrapper {
+    display: flex;
+    margin-left: 20vw;
+    padding: 2vw;
+}
+.blog{
+    margin-bottom: 2%;
+    background-color: #766756;
+    width: 50vw;
+    padding: 1vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.blog .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog h2{
+
+}
+
+.blog p{
+
+}
+.blog .icon{
+    height: 25px;
+    color: #F9F8F8;
+}
+.recommended_profile_menu{
+    width: 25vw;
+    padding: 0% 5%;
+}
+.recommended_profiles_options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended_profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #766756;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+.recommended_profile_info{
+    display: flex;
+    width: fit-content;
+}
+.recommended_profile img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.recommended_profile button{
+    height: 50px;
+    border-radius: 10px;
+}
